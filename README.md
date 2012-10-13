@@ -16,7 +16,7 @@ amed 'foo' in the context.
 To get the previous behavior, you need to do <code>{% url 'foo' %}</code>.
 
 In Django 1.3 and 1.4, you can get the 1.5 behavior by adding <code>{% load url from future %}</code>. 
-This utility will convert a directory (or set of directories) from the old behavior to the new behavior, 
+This utility will convert/migrate a directory (or set of directories) from the old behavior to the new behavior, 
 including adding the <code>{% load url from future %}</code>.
 
 If you have templates that have been converted already,
